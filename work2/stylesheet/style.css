@@ -1,0 +1,111 @@
+
+  *{
+      margin: 0;
+      padding: 0;
+  }
+ body{
+ background-color: #f0f2f5;
+
+ }
+ 
+ .main{
+     color: blue;
+     display: flex;
+     justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+font-weight: 800;
+
+ }
+ .right{
+     width: 500px;
+ }
+ .right p{
+     color: black;
+     font-size: 26px;
+     font-weight: normal;
+     line-height: 32px;
+ }
+ .formbox{
+     background-color:#fff;
+   padding: 15px;
+   margin-left: 16px;
+     width: 350px;
+     border-radius: 5px;
+     text-align: center;
+    box-shadow: 0px 2px 10px 1px rgba(71,71,0,52);
+   }
+   .formbox input{
+       width: 100%;
+       margin-bottom: 15px;
+       padding: 15px;
+       font-size: 18px;
+       box-sizing: border-box;
+       border: 1px solid #eeebee;
+       border-radius: 5px;
+       outline: none;
+   }
+.formbox input:focus
+{
+    box-shadow: 0px 0px 1px 1px rgb(22,111,229);
+}
+.formbox button {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 0;
+    cursor: pointer;
+    background: #166fe5;
+}
+.formbox button:hover{
+    background: #1877f2;
+}
+.formbox a {
+    color: #166fe5;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+.formbox a:hover{
+    text-decoration: underline;
+}
+.formbox hr{
+    border: 1px solid #dadde1;
+    margin-bottom: 15px;
+
+}
+.formbox .createbtn a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+background:#36a420;
+font-weight: 600;
+display: inline-block;
+margin-bottom: 5px;
+
+}
+.formbox .createbtn a:hover{
+    background: #42b72a;
+
+}
+footer{
+display: block;
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding-left: 400px;
+    height: 20vh;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 30px;
+    margin-top: 5vh;
+}
